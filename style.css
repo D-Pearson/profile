@@ -1,0 +1,105 @@
+h1,h2,h3 {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.8;
+}
+
+h1 {
+  color: rgb(225, 77, 42);
+}
+
+h2 {
+  color: rgb(21, 52, 98)
+}
+
+h3 {
+  color: rgb(21, 52, 98)
+}
+
+body {
+  background-color:rgb(79, 160, 149);
+  font-family: 'Rubik', sans-serif;
+  color: darkblue;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+a {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(186, 209, 194);
+  text-decoration: double;
+}
+
+.img-profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.375);
+}
+
+.container {
+  width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: rgb(186, 209, 194);
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.256);
+  border-style: 10px solid black;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#card-social {
+  background: lightcyan;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 40px;
+}
+
+.background-image {
+  width: 1000px;
+  height :1000px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
