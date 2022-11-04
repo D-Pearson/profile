@@ -29,13 +29,13 @@ a {
 }
 
 a:hover {
-  color: rgb(186, 209, 194);
+  color: darkorange;
   text-decoration: double;
 }
 
 .img-profile-pic {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.375);
 }
@@ -43,17 +43,24 @@ a:hover {
 .container {
   width: 800px;
   margin: 20px auto;
-  padding: 20px;
+  padding: 50px 250px;
+  opacity: 0.9;
+  border-radius: 10px;
 }
 
 .card {
   background-color: rgb(186, 209, 194);
   margin: 30px auto;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 20px 40px;
+  border-radius: 5px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.256);
   border-style: 10px solid black;
   text-align: center;
+  opacity: .90;
+}
+
+.card h3 {
+  margin: 10px auto;
 }
 
 .img-circle {
@@ -64,26 +71,42 @@ a:hover {
   text-align: center;
 }
 
+.button {
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 25px;
+  transition: 0.3s;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: black;
+  opacity: .7;
+}
+
 #card-social {
-  background: lightcyan;
-  padding: 30px;
+  background: rgb(186, 209, 194);
+  padding: 10px;
   border: 1px solid lightgrey;
 }
 
 .list-inline > li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 
 .list-inline {
   list-style: none;
   padding-left: 0px;
   font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .background-image {
   width: 1000px;
-  height :1000px;
+  height: 1000px;
 }
 
 @media (max-width: 960px) {
